@@ -1,4 +1,4 @@
-import { Category } from "./components/Category"
+import Category from "./components/Category"
 import { resultData } from "./contant"
 
 export const Summary = (props: any) => {
