@@ -13,6 +13,11 @@
 	gap: 0.8rem;
 }
 
+.icon-text img {
+	width: 20px;
+	height: 20px;
+}
+
 .summary-score span {
 	color: hsla(224, 30%, 27%, 0.5);
 }
