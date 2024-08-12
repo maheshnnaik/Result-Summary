@@ -1,6 +1,7 @@
+import React from 'react';
 import './category.css';
 
-export const Category = (props: any) => {
+const Category = (props: any) => {
 
     const { category, score, icon } = props;
     return (
@@ -13,3 +14,5 @@ export const Category = (props: any) => {
         </div>
     )
 }
+
+export default React.memo(Category);
