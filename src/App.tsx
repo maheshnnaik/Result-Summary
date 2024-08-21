@@ -6,10 +6,10 @@ import { Result } from './Result';
 function App() {
 	return (
 		<div className="App">
-			<div className='container'>
+			<main className='container'>
 				<Result />
 				<Summary />
-			</div>
+			</main>
 		</div>
 	);
 }
